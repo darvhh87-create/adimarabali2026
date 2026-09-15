@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ADIMARA - Prototype ekosistem data, inovasi, UMKM, dan marketplace hijau." name="description" />
+    <title>ADIMARA — Prototype</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <h1>
+        <live-server></live-server>
+    </h1>
+</head>
+
+<body>
+    <div class="toast" id="toast"></div>
+    <header class="header">
+        <div class="container nav-wrap">
+
+            <a aria-label="ADIMARA" class="brand" href="#home">
+                <span class="brand-mark">A</span>
+                <span>ADI<span class="brand-light">MARA</span></span>
+            </a>
+
+            <button aria-label="Buka menu" class="menu-btn" id="menuBtn">☰</button>
+            <nav class="nav" id="nav">
+                <a class="active" href="#home">Home</a>
+                <a href="#data">Dashboard Data</a>
+                <a href="#marketplace">Marketplace</a>
+                <a href="#news">Berita</a>
+                <a href="#about">Tentang Kami</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+            <button class="nav-cta" data-scroll="#marketplace">Jelajahi</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-orb orb-one"></div>
+            <div class="hero-orb orb-two"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow"><span class="dot"></span> Ekosistem Hijau Bali</div>
+                    <h1>
+                        <span>ADIMARA: </span>Ekosistem Waste to Value ‎ Berbasis Green ‎ UMKM untuk Membangun Ekonomi Sirkular Bali </h1>
+                    <p class="hero-text">
+                        ADIMARA adalah prototype platform yang menghubungkan data lingkungan, inovasi pengolahan limbah, UMKM, dan marketplace hijau dalam satu ekosistem.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" data-scroll="#data">Lihat Data <span>→</span></button>
+                        <button class="btn btn-outline" data-scroll="#about">Pelajari Konsep</button>
+                    </div>
+                    <div class="hero-note"><span>✦</span> Prototype lomba — seluruh transaksi bersifat simulasi.</div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="hero-card main-visual">
+                        <div class="visual-top">
+                            <span class="mini-label">IMPACT TODAY</span>
+                            <span class="live"><i></i> LIVE PROTOTYPE</span>
+                        </div>
+                        <div class="impact-number">1.254.235<span></span></div>
+                        <p>ton potensi sampah/tahun</p>
+                        <div class="visual-chart">
+                            <div style="height:32%"></div>
+                            <div style="height:46%"></div>
+                            <div style="height:39%"></div>
+                            <div style="height:62%"></div>
+                            <div style="height:53%"></div>
+                            <div style="height:74%"></div>
+                            <div style="height:67%"></div>
+                            <div style="height:88%"></div>
+                            <div style="height:78%"></div>
+                            <div style="height:96%"></div>
+                        </div>
+                        <div class="chart-labels"><span>Jan</span><span>Apr</span><span>Jul</span><span>Okt</span></div>
+                    </div>
+                    <div class="floating-card fc-one">
+                        <span class="float-icon">♻</span>
+                        <div><strong>60%</strong><small>Organik</small></div>
+                    </div>
+                    <div class="floating-card fc-two">
+                        <span class="float-icon">↗</span>
+                        <div><strong>17%</strong><small>Plastik</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trust-strip">
+            <div class="container strip-inner">
+                <span>DATA-DRIVEN</span><span>GREEN INNOVATION</span><span>UMKM EMPOWERMENT</span><span>CIRCULAR ECONOMY</span>
+            </div>
+        </section>
+        <section class="section data-section" id="data">
+            <div class="container">
+                <div class="section-heading centered reveal">
+                    <div class="eyebrow">01 — Dashboard Data</div>
+                    <h2>Ubah data menjadi <span>aksi nyata</span></h2>
+
+                </div>
+                <div class="stats-grid reveal">
+                    <article class="stat-card">
+                        <div class="stat-icon">♻</div>
+                        <strong data-counter="1254235">0</strong>
+                        <span>Ton sampah / tahun</span>
+                        <small>Estimasi data lingkungan</small>
+                    </article>
+                    <article class="stat-card featured">
+                        <div class="stat-icon">◒</div>
+                        <strong data-counter="60">0</strong><em>%</em>
+                        <span>Komposisi organik</span>
+                        <small>Potensi bahan baku</small>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-icon">◈</div>
+                        <strong data-counter="113,6"></strong><em>M</em>
+                        <span>Konsumsi Material Domestik Dunia</span>
+                        <small>Pada tahun 2022</small>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-icon">⌁</div>
+                        <strong data-counter="11,8"></strong><em>%</em>
+                        <span>Konsumsi Biomassa</span>
+                        <small>Potensi energi</small>
+                    </article>
+                </div>
+                <div class="dashboard-grid reveal">
+                    <div class="panel chart-panel">
+                        <div class="panel-head">
+                            <div><span class="panel-kicker">KOMPOSISI LIMBAH</span>
+                                <h3>Potensi pengolahan</h3>
+                            </div>
+                            <select aria-label="Pilih periode" id="chartSelect"><option>2026</select>
+                        </div>
+                        <div class="donut-area">
+                            <div class="donut">
+                                <div><strong>60%</strong><small>Organik</small></div>
+                            </div>
+                            <div class="legend">
+                                <div><i class="l1"></i><span>Organik</span><b>60%</b></div>
+                                <div><i class="l2"></i><span>Plastik</span><b>17%</b></div>
+                                <div><i class="l3"></i><span>Lainnya</span><b>23%</b></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel opportunity-panel">
+                        <span class="panel-kicker">OPPORTUNITY MAP</span>
+                        <h3>Di mana dampak dimulai?</h3>
+                        <div class="opportunity-list">
+                            <div><span class="op-num">01</span>
+                                <div><strong>Pupuk</strong>
+                                    <p>POC - Pupuk Organik Cair Berbasis Pemulihan Nutrient</p>
+                                </div><b>High</b></div>
+                            <div><span class="op-num">02</span>
+                                <div><strong>Energi</strong>
+                                    <p>Bioetanol - Renewable Energy Recovery
+                                    </p>
+                                </div><b>High</b></div>
+                            <div><span class="op-num">03</span>
+                                <div><strong>UMKM</strong>
+                                    <p>Niskala – Aromatic & Repellent Candle</p>
+                                </div><b>Medium</b></div>
+                            <div><span class="op-num">04</span>
+                                <div><strong>Hidroponik</strong>
+                                    <p>Taru Nadi Lestari – Smart Green Space</p>
+                                </div><b>Medium</b></div>
+                            <div><span class="op-num">05</span>
+                                <div><strong>Daur Ulang</strong>
+                                    <p>REKA – Recycled Plastic Products</p>
+                                </div><b>Medium</b></div>
+                        </div>
+                        <button class="text-btn" data-scroll="#marketplace">Lihat peluang →</button>
+                    </div>
+                </div>
+                <section aria-labelledby="eco-platform-title" class="eco-platform-section" id="eco-platform">
+                    <div class="eco-platform-container">
+                        <div class="eco-platform-heading eco-platform-reveal">
+
+                            <h3 id="eco-platform-title">Satu dashboard untuk <span>rantai ekonomi sirkular</span></h3>
+
+                        </div>
+                        <div class="eco-platform-tools eco-platform-reveal">
+                            <label class="eco-platform-search-box" for="ecoFeatureSearch">
+<span aria-hidden="true">⌕</span>
+<input autocomplete="off" id="ecoFeatureSearch" placeholder="Cari modul..." type="search"/>
+</label>
+                            <div class="eco-platform-count"><strong id="ecoFeatureCount">5</strong> modul tersedia</div>
+                        </div>
+                        <div class="eco-platform-grid" id="ecoFeaturesGrid">
+                            <article class="eco-platform-card eco-platform-reveal" data-search="material hub limbah bahan baku jenis volume lokasi ketersediaan">
+                                <div class="eco-platform-card-top">
+                                    <span class="eco-platform-number">01</span>
+                                    <span class="eco-platform-icon">♻</span>
+                                </div>
+                                <span class="eco-platform-tag">DATA MATERIAL</span>
+                                <h3>Material Hub</h3>
+                                <p>
+                                    Pendataan jenis, volume, lokasi, dan ketersediaan material limbah yang dapat dimanfaatkan kembali.
+                                </p>
+                                <button class="eco-platform-detail" data-modal="ecoMaterialModal">
+                            Lihat Detail <span>→</span>
+</button>
+                            </article>
+                            <article class="eco-platform-card eco-platform-reveal" data-search="umkm usaha mikro kecil menengah profil bahan baku produksi produk">
+                                <div class="eco-platform-card-top">
+                                    <span class="eco-platform-number">02</span>
+                                    <span class="eco-platform-icon">🏪</span>
+                                </div>
+                                <span class="eco-platform-tag">PELAKU USAHA</span>
+                                <h3>UMKM Hub</h3>
+                                <p>
+                                    Profil UMKM, kebutuhan bahan baku, kapasitas produksi, dan produk yang dihasilkan.
+                                </p>
+                                <button class="eco-platform-detail" data-modal="ecoUmkmModal">
+                            Lihat Detail <span>→</span>
+</button>
+                            </article>
+                            <article class="eco-platform-card eco-platform-reveal" data-search="market b2b pasar konsumen hospitality perusahaan pembeli produk">
+                                <div class="eco-platform-card-top">
+                                    <span class="eco-platform-number">03</span>
+                                    <span class="eco-platform-icon">🛒</span>
+                                </div>
+                                <span class="eco-platform-tag">PASAR &amp; B2B</span>
+                                <h3>Market &amp; B2B Hub</h3>
+                                <p>
+                                    Menghubungkan produk UMKM dengan konsumen, hospitality, perusahaan, dan pembeli institusional.
+                                </p>
+                                <button class="eco-platform-detail" data-modal="ecoMarketModal">
+                            Lihat Detail <span>→</span>
+</button>
+                            </article>
+                            <article class="eco-platform-card eco-platform-reveal" data-search="green finance pembiayaan modal investasi keberlanjutan usaha">
+                                <div class="eco-platform-card-top">
+                                    <span class="eco-platform-number">04</span>
+                                    <span class="eco-platform-icon">🌱</span>
+                                </div>
+                                <span class="eco-platform-tag">PEMBIAYAAN</span>
+                                <h3>Green Finance Hub</h3>
+                                <p>
+                                    Menghubungkan UMKM dengan peluang pembiayaan berdasarkan data usaha dan kinerja keberlanjutan.
+                                </p>
+                                <button class="eco-platform-detail" data-modal="ecoFinanceModal">
+                            Lihat Detail <span>→</span>
+</button>
+                            </article>
+                            <article class="eco-platform-card eco-platform-reveal" data-search="impact dashboard dampak lingkungan material transaksi pendapatan monitoring">
+                                <div class="eco-platform-card-top">
+                                    <span class="eco-platform-number">05</span>
+                                    <span class="eco-platform-icon">◉</span>
+                                </div>
+                                <span class="eco-platform-tag">MONITORING</span>
+                                <h3>Impact Dashboard</h3>
+                                <p>
+                                    Menampilkan material yang terserap, produk, transaksi, pendapatan, dan dampak lingkungan.
+                                </p>
+                                <button class="eco-platform-detail" data-modal="ecoImpactModal">
+                            Lihat Detail <span>→</span>
+</button>
+                            </article>
+                        </div>
+                        <div aria-live="polite" class="eco-platform-empty" id="ecoFeatureEmpty">
+                            <div aria-hidden="true">⌕</div>
+                            <h4>Modul tidak ditemukan</h4>
+                            <p>Coba gunakan kata kunci lain.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="section market-section" id="marketplace">
+            <div class="container">
+                <div class="section-heading reveal marketplace-heading">
+                    <div class="marketplace-title">
+                        <div class="eyebrow">02 — Marketplace Hijau</div>
+                        <h2>Inovasi lokal, <span>nilai baru</span></h2>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="market-toolbar reveal">
+                    <div class="search-box"><span>⌕</span><input id="productSearch" placeholder="Cari produk hijau..." type="search" /></div>
+                    <div class="filters" id="filters">
+                        <button class="filter active" data-filter="all">Semua</button>
+                        <button class="filter" data-filter="pupuk">Pupuk</button>
+                        <button class="filter" data-filter="energi">Energi</button>
+                        <button class="filter" data-filter="UMKM">UMKM</button>
+                        <button class="filter" data-filter="hidroponik">Hidroponik</button>
+                        <button class="filter" data-filter="daur ulang">Daur Ulang</button>
+                    </div>
+                </div>
+                <div class="product-grid" id="productGrid">
+
+                    <article class="product-card reveal" data-category="pupuk" data-name="Pupuk Organik Cair (POC)">
+                        <div class="product-image product-orange"><span>PUPUK</span>
+                            <img alt="poto-jeruk.jpg" src="images/poc.png" />
+                        </div>
+                        <div class="product-body">
+                            <div class="tag">PUPUK</div>
+                            <h3> POC - Pupuk Organik Cair Berbasis Pemulihan Nutrient
+                            </h3>
+
+                            <p>POC merupakan pupuk organik cair dari limbah organik rumah tangga dan sisa upacara sebagai alternatif pemenuhan unsur hara tanaman.</p>
+                            <div class="product-foot"><strong>Rp 50.000</strong><button class="buy-btn" data-price="50000" data-product="POC - Pupuk Organik Cair Berbasis Pemulihan Nutrient">Beli</button></div>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal" data-category="energi" data-name="Bioetanol">
+                        <div class="product-image product-green"><span>ENERGI</span>
+                            <img alt="poto-jeruk.jpg" src="images/bioetanol.png" />
+                        </div>
+                        <div class="product-body">
+                            <div class="tag">ENERGI</div>
+                            <h3>Bioetanol - Renewable Energy Recovery
+                            </h3>
+                            <p>Bioetanol merupakan bahan bakar dari limbah organik yang diolah menjadi energi bernilai ekonomi dan ramah lingkungan.
+
+                            </p>
+                            <div class="product-foot"><strong>Rp 50.000</strong><button class="buy-btn" data-price="50000" data-product="Bioetanol - Renewable Energy Recovery">Beli</button></div>
+                        </div>
+                    </article>
+
+
+                    <article class="product-card reveal" data-category="UMKM" data-name="UMKM">
+                        <div class="product-image product-green"><span>UMKM</span>
+                            <img alt="poto-jeruk.jpg" src="images/lilin.png" />
+                        </div>
+                        <div class="product-body">
+                            <div class="tag">UMKM</div>
+                            <h3>Niskala - Aromatic Candle dan Repellent Candle
+
+                            </h3>
+                            <p>Lilin aromaterapi memanfaatkan minyak jelantah menjadi produk bernilai guna yang berpotensi dikembangkan sebagai usaha UMKM.
+
+                            </p>
+                            <div class="product-foot"><strong>Rp 50.000</strong><button class="buy-btn" data-price="50000" data-product="Niskala - Aromatic Candle dan Repellent Candle">Beli</button></div>
+                        </div>
+                    </article>
+
+
+
+                    <article class="product-card reveal" data-category="hidroponik" data-name="Wana Pilar Tirta Sari">
+                        <div class="product-image product-green"><span>HIDROPONIK</span>
+                            <img alt="poto-jeruk.jpg" src="images/hidroponik.png" />
+                        </div>
+                        <div class="product-body">
+                            <div class="tag">HIDROPONIK</div>
+                            <h3>Taru Nadi Lestari - Smart Green Space for Limited Areas</h3>
+                            <p>Taru Nadi Lestari merupakan hidroponik vertikal berbahan plastik bekas atau PET untuk penghijauan di ruang terbatas.
+
+                            </p>
+                            <div class="product-foot"><strong>Rp 50.000</strong><button class="buy-btn" data-price="50000" data-product="Taru Nadi Lestari - Smart Green Space for Limited Areas">Beli</button></div>
+                        </div>
+                    </article>
+
+
+
+                    <article class="product-card reveal" data-category="daur ulang" data-name="Produk Plastik Daur Ulang">
+                        <div class="product-image product-green"><span>DAUR ULANG</span>
+                            <img alt="poto-jeruk.jpg" src="images/daurulangnew.png" />
+                        </div>
+                        <div class="product-body">
+                            <div class="tag">DAUR ULANG</div>
+                            <h3>REKA - Recycled Plastic Products
+                            </h3>
+                            <p>Limbah plastik diolah menjadi produk fungsional seperti souvenir dan furnitur sederhana, sehingga mengurangi limbah sekaligus menciptakan nilai ekonomi baru.
+                            </p>
+                            <div class="product-foot"><strong>Rp 50.000</strong><button class="buy-btn" data-price="50000" data-product="REKA - Recycled Plastic Products
+">Beli</button></div>
+                        </div>
+                    </article>
+
+
+
+                </div>
+                <div class="empty-state hidden" id="noProducts">Produk tidak ditemukan. Coba kata kunci lain.</div>
+            </div>
+        </section>
+        <section class="section news-section" id="news">
+            <div class="container">
+                <div class="section-heading centered reveal">
+                    <div class="eyebrow">03 — Berita</div>
+                    <h2>Membaca Isu di Balik <span>Perubahan</span></h2>
+
+                </div>
+
+                <div class="news-grid">
+
+                    <article class="news-card featured-news reveal">
+                        <div class="news-cover cover-1">
+                            <img src="images/gambar-berita3.jpeg" alt="Sampah di Bali">
+                        </div>
+                        <div class="news-content">
+                            <div class="meta"> Kamis, 3 September 2026
+                            </div>
+                            <h3>Bali Masuk Daftar Tak Layak Dikunjungi 2025, Sampah Disorot
+                            </h3>
+                            <p>
+                                Jakarta - Situs panduan perjalanan Fodor's menempatkan Bali dalam daftar destinasi wisata yang tak layak dikunjungi pada 2025. Kok bisa, apa saja penilaiannya?
+                            </p>
+                            < <a href="https://travel.detik.com/travel-news/d-7658537/bali-masuk-daftar-tak-layak-dikunjungi-2025-sampah-disorot" target="_blank" rel="noopener noreferrer" class="read-btn">
+                                Baca selengkapnya →
+                                </a>
+                    </article>
+
+                    <article class="news-card featured-news reveal">
+                        <div class="news-cover cover-1">
+                            <img src="images/beritacuaca.webp" alt="Sampah di Bali">
+                        </div>
+                        <div class="news-content">
+                            <div class="meta"> Rabu, 5 Februari 2025
+                            </div>
+                            <h3>BBMKG Catat Suhu Panas Sebagian Bali Capai 36 Derajat Kategori Ekstrem
+                            </h3>
+                            <p>Denpasar (ANTARA) - Balai Besar Meteorologi Klimatologi dan Geofisika (BBMKG) Wilayah III Denpasar mencatat suhu panas yang terjadi di sebagian wilayah di Bali dalam dua hari terakhir mencapai maksimum 36 derajat Celcius yang
+                                termasuk kategori ekstrem.
+                            </p>
+                            < <a href="https://www.antaranews.com/berita/4628037/bbmkg-catat-suhu-panas-sebagian-bali-capai-36-derajat-kategori-ekstremSitasi" target="_blank" rel="noopener noreferrer" class="read-btn">
+                                Baca selengkapnya →
+                                </a>
+                    </article>
+
+                    <article class="news-card featured-news reveal">
+                        <div class="news-cover cover-1">
+                            <img src="images/gambarberita4.jpeg" alt="Sampah di Bali">
+                        </div>
+                        <div class="news-content">
+                            <div class="meta"> Senin, 2 Juni 2025
+                            </div>
+                            <h3>Duta PSBS PADAS, Ibu Putri Koster, Minta Pola Angkut Sampah Dihentikan
+                            </h3>
+                            <p>DENPASAR – Duta Pengelolaan Sampah Berbasis Sumber (PSBS) PADAS, Ibu Putri Suastini Koster, kembali menegaskan pentingnya perubahan pola pengelolaan sampah di Bali. Dalam Webinar Sosialisasi Pembatasan Plastik Sekali Pakai
+                                dan Pengelolaan Sampah Berbasis Sumber yang digelar secara daring dari Jaya Sabha, Denpasar, Rabu (28/5), ia meminta agar pola angkut sampah dari rumah warga ke TPS3R/TPA dihentikan.
+                            </p>
+                            < <a href="https://www.baliprov.go.id/web/duta-psbs-padas-ibu-putri-koster-minta-pola-angkut-sampah-dihentikan/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                                Baca selengkapnya →
+                                </a>
+                    </article>
+
+                    <article class="news-card featured-news reveal">
+                        <div class="news-cover cover-1">
+                            <img src="images/gambar-berita1.jpg" alt="Sampah di Bali">
+
+
+                        </div>
+                        <div class="news-content">
+                            <div class="meta">Sabtu, 9 Agustus 2025 </div>
+                            <h3>Timbulan Sampah Di Bali Capai Jutaan Ton Per Tahun, Daerah Ini Jadi Penyumbang Terbesarnya</h3>
+                            <p>DENPASAR, BALIPOST.com – Berdasarkan data Sistem Informasi Pengelolaan Sampah Nasional (SIPSN) di Bali menunjukkan bahwa pada tahun 2024 (update data hingga Februari 2025), timbulan sampah di provinsi ini mencapai 1.254.235,02
+                                ton per tahun.
+                            </p>
+                            < <a href="https://www.balipost.com/news/2025/08/09/479169/Timbulan-Sampah-di-Bali-Capai...html#google_vignette" target="_blank" rel="noopener noreferrer" class="read-btn">
+                                Baca selengkapnya →
+                                </a>
+                    </article>
+
+                    <article class="news-card featured-news reveal">
+                        <div class="news-cover cover-1">
+                            <img src="images/berita-3.webp" alt="Sampah di Bali">
+                        </div>
+                        <div class="news-content">
+                            <div class="meta"> Sabtu, 13 Desember 2025
+                            </div>
+                            <h3>“Bom Sampah” 23 Desember: Ancaman Ledakan Sampah dan Krisis Tata Kelola di Bali
+                            </h3>
+                            <p>BALINEWS.ID, DENPASAR – Ancaman krisis sampah di Bali dinilai berada di titik kritis menjelang 23 Desember 2025. Politisi dan pemerhati kebijakan publik, I Gusti Putu Artha, memperingatkan potensi “bom sampah” jika kebijakan
+                                penutupan TPA Suwung tidak disertai solusi pengelolaan yang realistis dan terukur.
+                            </p>
+                            < <a href="https://balinews.id/bom-sampah-23-desember-ancaman-ledakan-sampah-dan-krisis-tata-kelola-di-bali/" target="_blank" rel="noopener noreferrer" class="read-btn">
+                                Baca selengkapnya →
+                                </a>
+                    </article>
+
+
+
+
+
+
+
+                    <article class="news-card featured-news reveal">
+                        <div class="news-cover cover-1">
+                            <img src="images/berita5.webp" alt="Sampah di Bali">
+                        </div>
+                        <div class="news-content">
+                            <div class="meta"> Jumat, 23 November 2018
+                            </div>
+                            <h3>Bau Sampah Tercium Hingga Pesanggaran, TPA Suwung Mau Bangun Echo Park
+                            </h3>
+                            <p>Denpasar, IDN Times - Bau menyengat yang tercium di sekitar Tempat Pembuangan Akhir (TPA) Suwung hingga kini masih menjadi persoalan. Dari pantauan IDN Times, bau itu sangat menyengat hingga perempatan traffic light Pesanggaran.
+                            </p>
+                            < <a href="https://bali.idntimes.com/news/bali/bau-sampah-tercium-hingga-pesanggaran-tpa-suwung-mau-bangun-echo-park-00-74zlf-935t39" target="_blank" rel="noopener noreferrer" class="read-btn">
+                                Baca selengkapnya →
+                                </a>
+                    </article>
+
+
+                    </div>
+                    </div>
+        </section>
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-visual reveal">
+                    <div class="about-photo">
+                        <img alt="poto-saya.png" src="images/poto-saya.png" />
+                    </div>
+                </div>
+                <div class="about-copy reveal">
+                    <div class="eyebrow">04 — Tentang Kami</div>
+                    <h2>ADI<span>MARA</span></h2>
+                    <hr class="garis" />
+                    <div <hr="" class="garis">
+                        <p>Platform digital yang dirancang oleh <span>Metaksu Team</span> untuk menghubungkan limbah bernilai, green UMKM, pasar, pembiayaan, dan informasi dalam satu ekosistem ekonomi sirkular. Dari limbah menjadi peluang, dari peluang menjadi
+                            nilai.
+                        </p>
+                        <p>ㅤ</p>
+                    </div>
+                    <div class="footer-contact">
+                        <hr class="garis" />
+                        <strong>Kontak Kami</strong>
+                        <hr class="garis" />
+                        <div>Alamat Kampus FEB Udayana: Jl. PB Sudirman, Denpasar, Bali 80232</div>
+                        <div>Dinas Lingkungan Hidup Prov. Bali: Jl. WR Supratman, Denpasar</div>
+                        <div class="email">Email: adimarabali@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section contact-section" id="contact">
+            <div class="container contact-card reveal">
+                <div class="contact-copy">
+                    <div class="eyebrow">05 — Gabung Ekosistem</div>
+                    <h2>Punya ide yang bisa memberi <span>dampak?</span></h2>
+                    <p>Gunakan formulir ini sebagai simulasi alur kolaborasi dalam prototype.</p>
+                    <div class="contact-mini"><span>✉</span> adimarabali@gmail.com</div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <label>Nama<input id="name" placeholder="Contoh: I Komang Darmayasa" required="" type="text"/></label>
+                    <label>Email<input id="email" placeholder="Contoh: darmayasa280@gmail.com" required="" type="email"/></label>
+                    <label>Ide kolaborasi<textarea id="message" placeholder="Ceritakan ide atau potensi kolaborasi..." required="" rows="4"></textarea></label>
+                    <button class="btn btn-primary" type="submit">Kirim Kolaborasi <span>→</span></button>
+                    <small>Prototype: data formulir tidak dikirim ke server.</small>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-top">
+            <div><a class="brand footer-brand" href="#home"><span class="brand-mark">B</span><span>ADI<span class="brand-light">MARA</span></span></a>
+                <p>Data · Innovation · Circular Economy</p>
+            </div>
+            <div class="footer-links"><a href="#data">Data</a><a href="#marketplace">Marketplace</a><a href="#news">Berita</a><a href="#contact">Kontak</a></div>
+        </div>
+        <div class="container footer-bottom"><span>© 2026 ADIMARA Prototype</span><span>Dibuat untuk kebutuhan demonstrasi lomba</span></div>
+    </footer>
+    <div aria-hidden="true" class="modal hidden" id="productModal">
+        <div class="modal-box">
+            <button class="modal-close" data-close="productModal">×</button>
+            <div class="modal-icon">♻</div>
+            <div class="eyebrow">SIMULASI PESANAN</div>
+            <h3 id="modalProduct">Produk</h3>
+            <p>Ini adalah simulasi marketplace. Tidak ada transaksi atau pembayaran nyata.</p>
+            <div class="quantity"><button id="minus">−</button><strong id="qty">1</strong><button id="plus">+</button></div>
+            <div class="modal-total"><span>Total simulasi</span><strong id="modalTotal">Rp 50.000</strong></div>
+            <button class="btn btn-primary full" id="confirmOrder">Konfirmasi Simulasi →</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <div aria-hidden="true" class="eco-platform-modal" id="ecoMaterialModal">
+        <div class="eco-platform-modal-box">
+            <button class="eco-platform-modal-close">×</button>
+            <span class="eco-platform-modal-number">01</span>
+            <div class="eco-platform-modal-icon">♻</div>
+            <span class="eco-platform-modal-tag">DATA MATERIAL</span>
+            <h2>Material Hub</h2>
+
+            <p class="text-justify">
+                ㅤㅤㅤMaterial Hub merupakan bagian awal dari Green Circular Business Platform yang berfungsi menghubungkan material yang berasal dari masyarakat dengan jalur pemanfaatan yang sesuai. Material yang telah dipilah dari sumber dicatat berdasarkan jenis dan
+                ketersediaannya, kemudian diarahkan kepada waste to value stream dan UMKM yang membutuhkan. Dengan mekanisme ini, material tidak langsung dipandang sebagai limbah akhir, tetapi sebagai sumber daya yang masih memiliki nilai ekonomi. Material
+                Hub menjadi penting karena setiap jenis material memiliki karakteristik dan potensi pemanfaatan yang berbeda, sehingga perlu diarahkan pada proses pengolahan yang tepat.
+            </p>
+
+            <p class="text-justify">
+                ㅤㅤㅤMelalui sistem ini, ketersediaan material dapat diketahui oleh pelaku usaha sehingga proses pencarian bahan baku menjadi lebih mudah dan rantai nilai dapat berjalan secara lebih terkoordinasi. Dalam konteks Adimara, material yang tersedia kemudian
+                dapat masuk ke berbagai waste to value stream, seperti limbah organik yang diarahkan untuk produksi POC, biomassa untuk bioetanol, minyak jelantah untuk lilin aromaterapi, plastik atau PET untuk hidroponik vertikal, serta limbah plastik
+                untuk produk fungsional. Dengan demikian, Material Hub menjadi titik awal yang mengubah material terpilah menjadi input bagi aktivitas ekonomi.
+            </p>
+        </div>
+    </div>
+    <div aria-hidden="true" class="eco-platform-modal" id="ecoUmkmModal">
+        <div class="eco-platform-modal-box">
+            <button class="eco-platform-modal-close">×</button>
+            <span class="eco-platform-modal-number">02</span>
+            <div class="eco-platform-modal-icon">🏪</div>
+            <span class="eco-platform-modal-tag">PELAKU USAHA</span>
+            <h2>UMKM Hub</h2>
+
+            <p class="text-justify">
+                ㅤㅤㅤSetelah material tersedia dan berhasil dipetakan, UMKM Hub berperan menghubungkan material tersebut dengan pelaku usaha yang mampu mengolahnya menjadi produk bernilai. UMKM Hub menampilkan informasi mengenai kapasitas produksi, kebutuhan bahan baku,
+                dan kesiapan produk dari green UMKM. Informasi tersebut membuat kebutuhan UMKM dapat diketahui dengan lebih jelas sehingga material yang tersedia dapat diarahkan kepada usaha yang sesuai. Keberadaan UMKM Hub juga memperkuat posisi UMKM
+                sebagai penggerak utama dalam konsep waste to value. UMKM tidak hanya berfungsi sebagai pengolah material, tetapi juga menjadi pihak yang mengubah material tersebut menjadi produk yang memiliki nilai guna dan nilai jual. Dalam ekosistem
+                Adimara, masyarakat memperoleh nilai dari material yang dikumpulkan, kemudian UMKM mengolahnya menjadi produk yang dapat dipasarkan kepada konsumen maupun mitra usaha. Sebagian pendapatan yang diperoleh dapat kembali digunakan sebagai
+                modal produksi dan pembelian material berikutnya sehingga aktivitas usaha dapat terus berputar.
+            </p>
+
+
+        </div>
+    </div>
+    <div aria-hidden="true" class="eco-platform-modal" id="ecoMarketModal">
+        <div class="eco-platform-modal-box">
+            <button class="eco-platform-modal-close">×</button>
+            <span class="eco-platform-modal-number">03</span>
+            <div class="eco-platform-modal-icon">🛒</div>
+            <span class="eco-platform-modal-tag">PASAR &amp; B2B</span>
+            <h2>Market &amp; B2B Hub</h2>
+            <p class="text-justify">
+                ㅤㅤㅤProduk yang telah dihasilkan oleh UMKM selanjutnya membutuhkan pasar agar nilai ekonominya benar-benar tercipta. Untuk itu, Market & B2B Hub berfungsi mempertemukan produk green UMKM dengan konsumen, pelaku usaha, maupun offtaker. Hub ini tidak hanya
+                berorientasi pada penjualan langsung kepada konsumen, tetapi juga membuka peluang kerja sama antarbisnis atau B2B serta memperluas jaringan distribusi. Melalui Market & B2B Hub, produk yang berasal dari pemanfaatan limbah dapat memiliki
+                jalur pemasaran yang lebih jelas. Mitra usaha dapat berperan sebagai mitra produksi, bagian dari rantai pasok, offtaker, maupun pembuka akses pasar bagi produk green UMKM. ㅤㅤㅤDengan demikian, aktivitas pemanfaatan limbah tidak berhenti
+                pada tahap pengolahan, tetapi berlanjut menjadi transaksi yang menghasilkan pendapatan. Hal ini penting karena nilai ekonomi material baru benar-benar terbentuk ketika produk yang dihasilkan mampu menemukan pasar dan memberikan manfaat
+                ekonomi bagi pelaku usaha.
+
+                <p class="text-justify">
+                    ㅤㅤㅤDengan demikian, aktivitas pemanfaatan limbah tidak berhenti pada tahap pengolahan, tetapi berlanjut menjadi transaksi yang menghasilkan pendapatan. Hal ini penting karena nilai ekonomi material baru benar-benar terbentuk ketika produk yang dihasilkan
+                    mampu menemukan pasar dan memberikan manfaat ekonomi bagi pelaku usaha.
+
+        </div>
+    </div>
+    <div aria-hidden="true" class="eco-platform-modal" id="ecoFinanceModal">
+        <div class="eco-platform-modal-box">
+            <button class="eco-platform-modal-close">×</button>
+            <span class="eco-platform-modal-number">04</span>
+            <div class="eco-platform-modal-icon">🌱</div>
+            <span class="eco-platform-modal-tag">PEMBIAYAAN</span>
+            <h2>Green Finance Hub</h2>
+            <p>
+                ㅤㅤㅤSelain bahan baku dan pasar, keberlanjutan UMKM juga membutuhkan dukungan pembiayaan. Green Finance Hub hadir untuk mempertemukan green UMKM dengan lembaga keuangan atau mitra pendanaan berdasarkan kebutuhan pengembangan usaha. Dengan adanya Hub ini,
+                kebutuhan pembiayaan UMKM dapat dihubungkan dengan pihak yang memiliki sumber pendanaan sehingga usaha memiliki peluang untuk meningkatkan kapasitas dan mengembangkan kegiatan produksinya. Green Finance Hub menjadi bagian penting karena
+                ekosistem ekonomi sirkular membutuhkan modal agar siklusnya dapat terus berjalan. Ketika UMKM memperoleh pembiayaan, kapasitas produksinya dapat dikembangkan dan kemampuan menyerap material juga dapat meningkat. Dalam konsep Pentahelix
+                Adimara, lembaga keuangan menjadi salah satu aktor pendukung yang berperan dalam memperkuat akses pembiayaan dan pengembangan usaha berkelanjutan. Dengan demikian, pembiayaan tidak berdiri sendiri, tetapi menjadi bagian dari rantai nilai
+                yang menghubungkan material, produksi, pasar, dan pertumbuhan usaha.
+            </p>
+
+        </div>
+    </div>
+    <div aria-hidden="true" class="eco-platform-modal" id="ecoImpactModal">
+        <div class="eco-platform-modal-box">
+            <button class="eco-platform-modal-close">×</button>
+            <span class="eco-platform-modal-number">05</span>
+            <div class="eco-platform-modal-icon">◉</div>
+            <span class="eco-platform-modal-tag">MONITORING</span>
+            <h2>Impact Dashboard</h2>
+            <p>
+                ㅤㅤㅤSeluruh aktivitas yang berlangsung dalam ekosistem Adimara kemudian dipantau melalui Impact Dashboard. Dashboard ini berfungsi untuk mencatat dan menunjukkan dampak yang dihasilkan dari aktivitas ekonomi sirkular, mulai dari jumlah material yang terserap,
+                produk yang dihasilkan, hingga aktivitas ekonomi yang tercipta. Dengan adanya pencatatan tersebut, keberhasilan Adimara tidak hanya dilihat dari banyaknya sampah yang berhasil dikumpulkan atau diolah, tetapi dari seberapa besar nilai yang
+                berhasil dipertahankan dan diciptakan. Pengukuran dampak dilakukan melalui beberapa indikator, seperti jumlah material yang terserap, jumlah UMKM yang aktif, volume dan nilai transaksi, pendapatan pelaku usaha, tenaga kerja yang tercipta,
+                akses pembiayaan, serta kontribusi terhadap pemanfaatan energi terbarukan. Data tersebut kemudian menunjukkan dampak Adimara dari tiga sisi, yaitu ketahanan ekonomi melalui penguatan UMKM, ketahanan lingkungan melalui pengurangan material
+                yang terbuang, dan ketahanan energi melalui pengembangan produk berbasis energi terbarukan.
+            </p>
+
+        </div>
+    </div>
+</body>
+</div>
+</div>
+</div>
+</body>
